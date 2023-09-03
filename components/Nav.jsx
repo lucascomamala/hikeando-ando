@@ -27,7 +27,8 @@ const Nav = () => {
             </Link>
           </ul>
         </div>
-        <div>
+        <div className="flex flex-row gap-8 items-center">
+          <span className='font-extrabold'>55-5555-5555</span>
           <button type="button" className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-primary-orange hover:bg-primary-orange/80">
             Reserva ahora
           </button>

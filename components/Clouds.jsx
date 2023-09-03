@@ -2,7 +2,7 @@ import React from 'react'
 
 const Clouds = () => {
   return (
-    <div className='hidden lg:block lg:absolute h-[145vh]'>
+    <div className='absolute h-[145vh]'>
       <div className="clouds sticky text-black z-20 h-[75vh] w-[70vw] top-[15%]"
         style={{
           background: `url('/images/clouds.png') no-repeat 0 0/contain`,
